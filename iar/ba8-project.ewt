@@ -2375,4 +2375,19 @@
             <name>$PROJ_DIR$\..\src\main.c</name>
         </file>
     </group>
+    <group>
+        <name>startup</name>
+        <file>
+            <name>$PROJ_DIR$\..\3rdparty\SDK_2.7.0_MKL17Z256xxx4\devices\MKL17Z4\iar\startup_MKL17Z4.s</name>
+        </file>
+    </group>
+    <group>
+        <name>system</name>
+        <file>
+            <name>$PROJ_DIR$\..\3rdparty\SDK_2.7.0_MKL17Z256xxx4\devices\MKL17Z4\system_MKL17Z4.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\3rdparty\SDK_2.7.0_MKL17Z256xxx4\devices\MKL17Z4\system_MKL17Z4.h</name>
+        </file>
+    </group>
 </project>
