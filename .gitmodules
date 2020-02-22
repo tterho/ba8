@@ -1,3 +1,3 @@
-[submodule "3rdparty/madivaru-lib"]
-	path = 3rdparty/madivaru-lib
-	url = git@github.com:tterho/madivaru-lib.git
+[submodule "3rdparty/madivaru-lib-v2"]
+	path = 3rdparty/madivaru-lib-v2
+	url = git@github.com:tterho/madivaru-lib-v2.git
