@@ -2398,6 +2398,12 @@
                 <file>
                     <name>$PROJ_DIR$\..\src\application\io_drivers\button_io.h</name>
                 </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\relay_io.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\relay_io.h</name>
+                </file>
             </group>
         </group>
         <file>
