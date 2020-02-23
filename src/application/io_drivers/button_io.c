@@ -106,7 +106,7 @@
 /// Port pin passive filter configuration
 #define PIN_PASSIVE_FILTER_DISABLED 0
 /// Port pin drive strength selection
-#define PIN_DRIVE_STRENGT_FAST 0
+#define PIN_DRIVE_STRENGTH_FAST 0
 /// Default pin output status
 #define PIN_OUTPUT_LOW_BY_DEFAULT 0
 
@@ -115,7 +115,7 @@ static const port_pin_config_t pin_config = {
         .pullSelect = PIN_PULL_UP_DISABLED,
         .slewRate = PIN_SLEW_RATE_FAST,
         .passiveFilterEnable = PIN_PASSIVE_FILTER_DISABLED,
-        .driveStrength = PIN_DRIVE_STRENGT_FAST,
+        .driveStrength = PIN_DRIVE_STRENGTH_FAST,
         .mux = kPORT_MuxAsGpio
 };
 
@@ -742,6 +742,8 @@ mdv_result_t button_io_init(void)
         CLOCK_EnableClock(PORT_CLOCK_FOR_BUTTONS_1_2);
         CLOCK_EnableClock(PORT_CLOCK_FOR_BUTTONS_3_4_5_6);
         CLOCK_EnableClock(PORT_CLOCK_FOR_BUTTONS_7_8);
+
+        return MDV_RESULT_OK;
 }
 
 /** @} */
