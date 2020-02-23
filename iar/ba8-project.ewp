@@ -353,6 +353,9 @@
                     <state>$PROJ_DIR$\..\3rdparty\madivaru-lib-v2\src\include</state>
                     <state>$PROJ_DIR$\..\3rdparty\SDK_2.7.0_MKL17Z256xxx4\devices\MKL17Z4</state>
                     <state>$PROJ_DIR$\..\3rdparty\SDK_2.7.0_MKL17Z256xxx4\devices\MKL17Z4\drivers</state>
+                    <state>$PROJ_DIR$\..\src</state>
+                    <state>$PROJ_DIR$\..\src\application</state>
+                    <state>$PROJ_DIR$\..\src\application\io_drivers</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2379,6 +2382,30 @@
     </group>
     <group>
         <name>src</name>
+        <group>
+            <name>application</name>
+            <group>
+                <name>io_drivers</name>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\alarm_loop_io.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\alarm_loop_io.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\button_io.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\button_io.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\relay_io.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\src\application\io_drivers\relay_io.h</name>
+                </file>
+            </group>
+        </group>
         <file>
             <name>$PROJ_DIR$\..\src\main.c</name>
         </file>
